@@ -1,0 +1,95 @@
+header{
+	background: #4a6478;
+	background-image:url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+	background-repeat:no-repeat;
+	color: #000000;
+	padding:20px 2px 60px 10px;
+	text-align:center;
+	background-size:100%;
+}
+body{
+	margin:30px 30px;
+}
+nav a{
+	width:10%;;
+	height:40%;
+	display:inline-block;
+	background:#ffffff;
+	padding: 14px 25px;
+	 border-radius: 5px;
+	 text-decoration:none;
+	 opacity:0.5;
+	 margin-right:90px;
+	 color:#000000;
+}
+nav a:hover{
+	background-color:#bc001a;
+}
+nav a:focus{
+	background-color:#357ae8;
+}
+nav .active{
+	background-color:#ffffff;
+	opacity:1;
+}
+a{
+	color:#bc001a;
+	background-color:#ffffff;
+}
+h1{
+	text-align:center;
+	text-transform:uppercase;
+	color:#ffffff;
+}
+aside.left img{
+	display:flex;
+	width:160px;
+	height:100px;
+	background:#000000 ;
+	border:15px solid #fa4467;
+	padding:2px 2px 2px 2px;
+	
+}
+main{
+	display:flex;
+}
+table{
+	font-family:"Trebuchet MS",arial,helvetica,sans-serif;
+	margin:0px 0px 0px 250px;
+	font-size:15px;
+}
+table th{
+	background-image:-webkit-linear-gradient(#ffffff,#4caf50);
+	background-image:-moz-linear-gradient(#ffffff,#4caf50);
+	background-image:-o-linear-gradient(#ffffff,#4caf50);
+	color:#ffffff;
+	padding:15px;
+	border:1px solid #ddd;
+	border-bottom:4px solid #ddd;
+	border-radius:5px 5px 0px 0px;
+}
+table th:first-child{
+	text-align:left;
+}
+table td{
+	background-color:#b7f3bf;
+	font-family:"Trebuchet MS",Verdana, Arial, Helvetica, sans-serif;
+	padding:10px;
+	color:#4c5d4e;
+	opacity:.6;
+	text-align:center;
+	border-radius:2px;
+	font-weight:normal;
+	font-size:14px;
+	text-shadow:2px 2px #ffffff;
+}
+table td:first-child{
+	text-align:left;
+}
+table td:hover{
+	opacity:1;
+	 transform: rotate(10deg);
+}
+table td:nth-child(alternate){
+	background-color:#f2f2f2;
+}
